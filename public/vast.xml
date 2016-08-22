@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:MM="http://api.mediamind.com/V1/DataContracts" version="2.0">
+   <Ad id="17722387">
+      <InLine>
+         <AdSystem><![CDATA[MediaMind]]></AdSystem>
+         <AdTitle><![CDATA[HTML 5 VPAID LATEST_3]]></AdTitle>
+         <Description><![CDATA[HTML 5 VPAID LATEST_3]]></Description>
+         <Creatives>
+            <Creative id="35945713" AdID="35945713" sequence="1">
+               <Linear>
+                  <Duration>00:00:15</Duration>
+                  <TrackingEvents />
+                  <MediaFiles>
+                     <MediaFile id="4277025" height="480" width="640" type="application/javascript" delivery="progressive" maintainAspectRatio="true" scalable="true" apiFramework="VPAID"><![CDATA[http://ds.serving-sys.com/BurstingCachedScripts/VPAID/HTML5_1_3_0_0/VPAIDAPI.js]]></MediaFile>
+                  </MediaFiles>
+               </Linear>
+            </Creative>
+            <Creative id="35945714" AdID="35945714" sequence="1">
+               <CompanionAds>
+                  <Companion id="background" width="1280" height="520" >
+                    <StaticResource creativeType="image/jpg">
+                      <![CDATA[https://adserver-images.adikteev.com/uploads/campaign_param/file/337960/GIULIETTA_HABILLAGE_V9.jpg]]>
+                    </StaticResource>
+                    <CompanionClickThrough>
+                      <![CDATA[http://www.air-touteunearmee.fr/]]>
+                    </CompanionClickThrough>
+                  </Companion>
+                  <Companion id="cta" width="360" height="184" >
+                    <StaticResource creativeType="image/jpg">
+                      <![CDATA[https://adserver-images.adikteev.com/uploads/campaign_param/file/327408/ALFA_ROMEO_COMPAGNON.jpg]]>
+                    </StaticResource>
+                    <CompanionClickThrough>
+                      <![CDATA[http://www.air-touteunearmee.fr/]]>
+                    </CompanionClickThrough>
+                  </Companion>
+               </CompanionAds>
+            </Creative>
+         </Creatives>
+      </InLine>
+   </Ad>
+</VAST>
